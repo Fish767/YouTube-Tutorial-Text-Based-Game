@@ -1,0 +1,95 @@
+*{
+    color: khaki;
+    background-color: black;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#textbox {
+    text-align: center;
+    font-size: 32px;
+    padding-top: 30px;
+    width: 100%;
+    height: calc(100% - 180px);
+    overflow: auto;
+}
+
+#option-container{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    height: 180px;
+    cursor: default;
+    user-select: none;
+    color: darkgreen;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.option {
+    border: 4px solid black;
+    text-align: center;
+    width: calc(calc(100% - 200px) / 4);
+    padding: 18px;
+    font-size: 1em;
+    background-color: gray;
+    user-select: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 70px;
+}
+
+.filled {
+    background-color: rgba(4, 197, 14, 0.541);
+    cursor: pointer;
+}
+
+#o1 {
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+#o2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#o3 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#o4 {
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+#o5 {
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+#o6 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#o7 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#o8 {
+    margin-left: 20px;
+    margin-right: 40px;
+}
